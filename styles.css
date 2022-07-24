@@ -613,4 +613,27 @@ footer {
     padding-right: 30px !important;
     padding-left: 30px !important;
   }
+
+  .my-mb-nav {
+    padding-right: 0 !important;
+  }
+
+  .ta-btn-hightlight {
+    width: 90%;
+    margin: auto;
+  }
+
+  .ta-dd-btn-container:hover {
+    border-bottom: 0 !important;
+  }
+
+  .nav-mb-head-title {
+    text-transform: uppercase;
+    color: #959597;
+    font-size: 14px;
+  }
+
+  .my-mb-search {
+    margin-top: 20px;
+  }
 }
