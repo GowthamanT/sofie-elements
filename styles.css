@@ -508,3 +508,35 @@ footer {
   font-size: 12px;
   margin-top: 30px;
 }
+
+.hero-row .col .card {
+  border: 0;
+  border-radius: 10px;
+  background: none;
+}
+
+.hero-row .col .card p {
+  margin: 0;
+}
+
+.hero-card-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-row .col .card img {
+  border-radius: 10px;
+}
+
+.hcn {
+  color: #8070ff;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.main-title {
+  padding-top: 70px; 
+  font-weight: 800; 
+  font-size: 48px;
+}
