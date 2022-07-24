@@ -635,4 +635,8 @@ footer {
   .my-mb-search {
     margin-top: 20px;
   }
+
+  .detail-container .content {
+    padding-right: 20px;
+  }
 }
