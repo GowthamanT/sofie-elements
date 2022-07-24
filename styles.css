@@ -1,0 +1,291 @@
+/***** Fonts *****/
+
+/* Usage - font-family: 'Lily Script One', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap");
+
+/***** Reset Styles *****/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+figure img {
+  vertical-align: top;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #141720 inset;
+  box-shadow: 0 0 0px 1000px #141720 inset;
+}
+
+body {
+  background-color: rgb(224, 234, 246) !important;
+}
+
+/* Utilities Start */
+
+.ta-mr-10 {
+  margin-right: 10px;
+}
+
+.ta-mr-20 {
+  margin-right: 20px;
+}
+
+.ta-pt-40 {
+  padding-top: 40px;
+}
+
+.ta-pt-60 {
+  padding-top: 60px;
+}
+
+.ta-pt-80 {
+  padding-top: 80px;
+}
+
+.ta-pt-120 {
+  padding-top: 120px;
+}
+
+.ta-pb-30 {
+  padding-bottom: 30px;
+}
+
+.ta-pb-60 {
+  padding-bottom: 60px;
+}
+
+.ta-pb-140 {
+  padding-bottom: 140px;
+}
+
+.ta-mt-10 {
+  margin-top: 10px;
+}
+
+.ta-mt-15 {
+  margin-top: 15px;
+}
+
+.ta-mt-20 {
+  margin-top: 20px;
+}
+
+.ta-mt-30 {
+  margin-top: 30px;
+}
+
+.ta-mt-60 {
+  margin-top: 60px;
+}
+
+/* Utilities End */
+
+.ta-navbar {
+  background-color: white;
+  padding-top: 15px !important;
+  padding-bottom: 0 !important;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 10%) !important;
+}
+
+.ta-secondary-nav {
+  margin-top: 10px;
+}
+
+.ta-btn-hightlight {
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+
+.ta-btn-main {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  background-color: white !important;
+  border: none !important;
+}
+
+.ta-btn-main:hover {
+  background-color: lightgrey !important;
+  border: none !important;
+}
+
+/* Dropdown Button */
+.ta-dd-btn {
+  height: 40px;
+  border: none !important;
+  text-transform: capitalize;
+}
+
+.ta-dd-btn:hover {
+  border: none !important;
+}
+
+.ta-dd-btn-container {
+  border-bottom: 2px solid transparent !important;
+}
+
+.ta-dd-btn-container:hover {
+  border-bottom: 2px solid red !important;
+}
+
+.btn-danger {
+  background-color: #f73859 !important;
+}
+
+/***** Services *****/
+
+.services {
+  background-color: white;
+}
+
+.services h2 {
+  color:#2b2b2b;
+}
+
+.services ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services ul li{
+  width: calc(100%/3 - 10px);
+}
+
+.detail-container p {
+  color:#505050;
+}
+
+/* Mobiles */
+@media (max-width: 576px) { 
+  .services ul li{
+    display: block;
+    width: 100%;
+  }
+}
+
+/* Tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+  .services ul li{
+    display: block;
+    width: 70%;
+    margin:30px auto 0px;
+  }
+}
+
+/* Big Tablets */
+@media (min-width: 769px) and (max-width: 991px) {
+  .services ul li{
+    display: block;
+    width: 80%;
+    margin: 30px auto 0px;
+  }
+}
+
+@media (min-width: 991px) {
+  .services ul li:not(:nth-child(3n)) {
+    margin-right: 15px;
+  }
+}
+
+.ta-title {
+  font-size: 28px;
+  line-height: 0.93;
+  letter-spacing: 1px;
+}
+
+.detail-icon {
+  height: 50px;
+  width:50px;
+}
+
+.detail-title {
+  font-size: 20px;
+  line-height: 1.3;
+  color: #141720;
+}
+
+.content {
+  font-size: 15px;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+}
+
+.pnp {
+  background-color: #f9f9fb;
+}
+
+.pnp-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pnp-card-container li {
+  width: 240px;
+  border-radius: 6px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 0px ;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 10%);
+}
+
+.pnp-card-container li:hover {
+  box-shadow: 0 1px 8px rgb(0 0 0 / 20%);
+}
+
+.pnp-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.pnp-content {
+  margin-top: 15px;
+  color: #505050;
+  font-size: 16px;
+}
+
+.pnp-sub-content {
+  display: block;
+  color: #505050;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.pnp-sub-content strong{
+  color: black;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.pnp-img {
+  max-width: 160px;
+  min-height: 78px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
