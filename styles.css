@@ -617,8 +617,8 @@ footer {
     padding-right: 0 !important;
   }
 
-  .ta-btn-hightlight {
-    width: 90%;
+  .ta-mb-btn {
+    width: 90% !important;
     margin: auto;
   }
 
