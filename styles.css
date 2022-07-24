@@ -540,3 +540,77 @@ footer {
   font-weight: 800; 
   font-size: 48px;
 }
+
+.main-content {
+  margin-top: 10px !important; 
+  margin-bottom: 0;
+}
+
+
+
+/* Responsiveness Mobiles */
+@media (max-width: 576px) { 
+  .pnp-card-container {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .pnp-card-container li {
+    margin: 30px auto;
+  }
+
+  .jopw-card-container {
+    flex-direction: column;
+  }
+  
+  .jopw-card-container li {
+    margin: 20px auto;
+  }
+
+  .cert {
+    flex-direction: column;
+  }
+
+  .cert-content-container {
+    width: unset;
+    padding: 40px;
+    margin-top: 50px;
+  }
+
+  footer {
+    padding-top: 30px;
+  }
+
+  .footer-link-container {
+    flex-direction: column;
+
+  }
+
+  .footer-link-container div {
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .main-title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .main-content {
+    padding: 0px 30px;
+    text-align: center;
+    margin-top: 30px !important;
+    /* margin-bottom: 40px; */
+  }
+
+  .hero-row .col .card {
+    margin-top: 40px;
+  }
+
+  .main-cont-div {
+    padding-top: 30px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+}
